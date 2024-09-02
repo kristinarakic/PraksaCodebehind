@@ -32,7 +32,6 @@ eliminationPhase.PrintThirdPlaceMatch();
 eliminationPhase.PrintFinalsMatch();
 eliminationPhase.PrintFirstThreePlaces();
 
-
 Console.ReadKey();
 
 
