@@ -49,8 +49,10 @@ namespace PraksaCodebehind
         }
         public static bool ContainsMatch(List<BasketballMatch> matches, BasketballMatch match)
         {
-            return matches.Any(m => (m.Team1 == match.Team1 && m.Team2 == match.Team2)
-                                || (m.Team2 == match.Team1 && m.Team1 == match.Team2));
+            return matches.Any( m => 
+                (m.Team1 == match.Team1 && m.Team2 == match.Team2) ||
+                (m.Team2 == match.Team1 && m.Team1 == match.Team2)
+            );
         }
         public void SimulateTwoUniqueMatches(string groupName)
         {
